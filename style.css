@@ -1,0 +1,208 @@
+.row{
+    width: 1300px;
+    height: 1250px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2.2fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.col1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* width: 100%; */
+    box-shadow: 0 5px 10px rgba(22, 4, 4, 0.6);
+    width: 100%;
+    height: 92%;
+    
+}
+.sheet{
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+}
+.image{
+    position: relative;
+    display: inline-block;
+}
+.name{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sheet2{
+    width: 90%;
+    height: 110px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    
+}
+/* .about{
+    display: flex;
+    justify-content: space-evenly;
+
+  
+  /* Customization */
+  .custom-hr {
+    border: none; /* Remove default border */
+    width: 97%;
+    height: 2px; /* Set the height of the line */
+    background-color: #f3f3f3; /* Set the background color of the line */
+    margin: 1px 0; /* Margin above and below the hr */
+  }
+/* Skilll */
+  .font-size{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+  /* font-size:larger; */
+}
+
+/*  PYthon*/
+
+.font-style{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.progress-container {
+    width: 350px; /* Adjust the width of the container */
+    height: 15px; /* Adjust the height of the container */
+    background-color: #ddd; /* Background color of the container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    text-align: center;
+    color: white;
+}
+.progress-bar{
+    height: 100%;
+    background-color:#229686; /* Color of the progress bar */
+    /* transition: width 0.5s; Optional: Add a smooth transition effect */
+}
+/* Language */
+.language{
+    padding: 5%;
+}
+.language-style{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.progress-container2{
+    width: 350px; /* Adjust the width of the container */
+    height: 22px; /* Adjust the height of the container */
+    background-color: #ddd; /* Background color of the container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    text-align: center;
+    color: white;
+}
+.progress-bar2{
+    height: 100%;
+    background-color:#229686; /* Color of the progress bar */
+    /* transition: width 0.5s; Optional: Add a smooth transition effect */
+}
+/* c0l222222222222222222222222222222222222222222 */
+.col2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    /* width: 0%; */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+
+}
+.sheet2{
+    width: 100%;
+    height: 100%;
+}
+/* work experiece */
+.python-django{
+padding: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(126, 124, 124);
+}
+.sep{
+    color: #229686;
+    margin-top:0;
+}
+button{
+    background-color: #229686;
+    color: white;
+    height: 25px;
+    border: none;
+    width: 9%;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.experiance{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: violet; */
+    /* border: 1px solid black; */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    height: 97%;
+}
+.sheet3{
+    width: 100%;
+    height: 100%;
+}
+.education{
+    padding: 2%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(126, 124, 124);
+
+}
+.education2{
+margin-left: 20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(126, 124, 124);
+
+}
+.education3{
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#229686;;
+    
+    }
+.education4{
+        margin-left: 20px;
+        font-family:serif;
+ }
+ .custom-hr1{
+    border: none; /* Remove default border */
+    width: 99.5%;
+    height: 2px; /* Set the height of the line */
+    background-color: #f3f3f3; /* Set the background color of the line */
+    margin: 1px 0; /* Margin above and below the hr */
+  }
+footer{
+    padding: 30px;
+    background-color:#229686; 
+    color: white;
+    text-align: center;
+}
+.footer{
+    width: 25%;
+    height: 70px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.footer1{
+    font-weight: bolder;
+    /* font-size: larger; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
